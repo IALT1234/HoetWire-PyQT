@@ -23,7 +23,7 @@ python menu.py
 ```
 
 
-##Dependencies required:
+## Dependencies required:
 - `pip install PyQt5` — PyQT5
 - `sudo apt install python3-rpi.gpio` — PyQT5 (Linux)
 
@@ -37,13 +37,13 @@ Top-level files:
 - `mock_gpio.py` — Lightweight mock class to emulate GPIO operations when testing on desktop systems
 - `jog_routes.py` — Flask-based handler from the original web version of the project (used for reference and code reuse)
 
-##UI assets:
+## UI assets:
 
 - `MENU.ui`, Hamburger_icon.svg.png — Original Qt Designer layout and icon resources.
 - `src/App.jsx` — application root
 - `src/index.css`, `src/App.css` — global styles
 
-##Purpose:
+## Purpose:
 
 This project is a conceptual bridge between embedded hardware control and desktop UI prototyping.
 It demonstrates:
@@ -51,9 +51,9 @@ It demonstrates:
 - How backend code for physical motor control can be reused in a graphical environment.
 - Early-stage interface prototyping for eventual integration into a full laboratory automation system.
 
-##Notes
+## Notes
 
--The UI logic (menu.py) directly connects PyQt buttons to backend movement functions for clarity.
--No external database or web dependencies are required.
--Designed for quick iteration and demonstration of interface responsiveness, layout styling, and code modularity.
+- The UI logic (menu.py) directly connects PyQt buttons to backend movement functions for clarity.
+- No external database or web dependencies are required.
+- Designed for quick iteration and demonstration of interface responsiveness, layout styling, and code modularity.
 
