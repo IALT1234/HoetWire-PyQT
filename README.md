@@ -3,8 +3,11 @@
 A simple PyQt-based UI prototype designed to reuse existing Python backend logic from hardware control systems.
 This project serves as a lightweight demonstration of UI design and rapid prototyping, integrating previously written Raspberry Pi motor-control code into a desktop environment.
 
-![UI](UI_IMAGE.png)
+![UI](images/UI_IMAGE.png)
+App UI
 
+![UI](images/Input_Output_terminal_data.png)
+Terminal showcasing Raspberry Pi pins activated with buttons being pressed 
 
 ### Features
 - Graphical motor jog interface for moving along X / Z axes.
@@ -55,3 +58,4 @@ It demonstrates:
 -The UI logic (menu.py) directly connects PyQt buttons to backend movement functions for clarity.
 -No external database or web dependencies are required.
 -Designed for quick iteration and demonstration of interface responsiveness, layout styling, and code modularity.
+
